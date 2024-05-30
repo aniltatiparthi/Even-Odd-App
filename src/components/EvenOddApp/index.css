@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.container {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 50%;
+    width: 60%;
+    background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Roboto';
+    font-weight: 300px;
+    color:  #0f172a;
+    font-size: 50px;
+}
+p {
+    font-size: 24px;
+  color:  #334155;
+}
+
+.button {
+    height: 50px;
+    width: 160px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
